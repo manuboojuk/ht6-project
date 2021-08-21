@@ -10,9 +10,16 @@ export default function Dashboard() {
     const history = useHistory()
 
     async function handleLogout() {
+<<<<<<< HEAD
         try {
             await logout()
             history.pushState('/login')
+=======
+        setError('')
+        try {
+            await logout()
+            history.push('/login')
+>>>>>>> b1f2a1e1696e95b99aeb1806120a0e69c4636b67
         } catch {
             setError('Failed to log out')
         }
