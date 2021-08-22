@@ -15,7 +15,7 @@ const jobsListings = [
     "level": "Junior",
     "postedAt": "1d ago",
     "contract": "Internship",
-    "location": "Toronto, Canada",
+    "location": "Toronto, Ontario",
     "languages": ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -35,22 +35,22 @@ const jobsListings = [
   },
   {
     "id": 3,
-    "company": "Account",
+    "company": "Scotiabank",
     "logo": "./images/account.svg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
-    "role": "Frontend",
+    "role": "Backend",
     "level": "Junior",
     "postedAt": "2d ago",
     "contract": "Part Time",
-    "location": "USA Only",
+    "location": "Remote",
     "languages": ["JavaScript"],
     "tools": ["React", "Sass"]
   },
   {
     "id": 4,
-    "company": "MyHome",
+    "company": "Accenture",
     "logo": "./images/myhome.svg",
     "new": false,
     "featured": false,
@@ -59,12 +59,12 @@ const jobsListings = [
     "level": "Junior",
     "postedAt": "5d ago",
     "contract": "Contract",
-    "location": "USA Only",
+    "location": "Mississauga, Ontario",
     "languages": ["CSS", "JavaScript"]
   },
   {
     "id": 5,
-    "company": "Loop Studios",
+    "company": "Hive",
     "logo": "./images/loop-studios.svg",
     "new": false,
     "featured": false,
@@ -73,13 +73,13 @@ const jobsListings = [
     "level": "Midweight",
     "postedAt": "1w ago",
     "contract": "Full Time",
-    "location": "Worldwide",
-    "languages": ["JavaScript"],
+    "location": "Ottawa, Ontario",
+    "languages": ["JavaScript", "Java", "Python"],
     "tools": ["Ruby", "Sass"]
   },
   {
     "id": 6,
-    "company": "FaceIt",
+    "company": "Loblaw Digital",
     "logo": "./images/faceit.svg",
     "new": false,
     "featured": false,
@@ -88,12 +88,12 @@ const jobsListings = [
     "level": "Junior",
     "postedAt": "2w ago",
     "contract": "Full Time",
-    "location": "UK Only",
+    "location": "Montreal, Quebec",
     "tools": ["RoR"]
   },
   {
     "id": 7,
-    "company": "Shortly",
+    "company": "Natrional Bank of Canada",
     "logo": "./images/shortly.svg",
     "new": false,
     "featured": false,
@@ -101,14 +101,14 @@ const jobsListings = [
     "role": "Frontend",
     "level": "Junior",
     "postedAt": "2w ago",
-    "contract": "Full Time",
-    "location": "Worldwide",
+    "contract": "Internship",
+    "location": "Hamilton, Ontario",
     "languages": ["HTML", "JavaScript"],
     "tools": ["Sass"]
   },
   {
     "id": 8,
-    "company": "Insure",
+    "company": "Bell",
     "logo": "./images/insure.svg",
     "new": false,
     "featured": false,
@@ -116,14 +116,14 @@ const jobsListings = [
     "role": "Frontend",
     "level": "Junior",
     "postedAt": "2w ago",
-    "contract": "Full Time",
-    "location": "USA Only",
+    "contract": "Internship",
+    "location": "Remote",
     "languages": ["JavaScript"],
     "tools": ["Vue, Sass"]
   },
   {
     "id": 9,
-    "company": "Eyecam Co.",
+    "company": "IBM",
     "logo": "./images/eyecam-co.svg",
     "new": false,
     "featured": false,
@@ -131,25 +131,24 @@ const jobsListings = [
     "role": "Fullstack",
     "level": "Midweight",
     "postedAt": "3w ago",
-    "contract": "Full Time",
-    "location": "Worldwide",
+    "contract": "Internship",
+    "location": "Toronto, Ontario",
     "languages": ["JavaScript", "Python"],
     "tools": ["Django"]
   },
   {
     "id": 10,
-    "company": "The Air Filter Company",
+    "company": "KPMG",
     "logo": "./images/the-air-filter-company.svg",
     "new": false,
     "featured": false,
-    "position": "Front-end Dev",
-    "role": "Frontend",
+    "position": "Junior Backend Developer",
+    "role": "Backend",
     "level": "Junior",
     "postedAt": "1mo ago",
     "contract": "Part Time",
-    "location": "Worldwide",
-    "languages": ["JavaScript"],
-    "tools": ["React", "Sass"]
+    "location": "Vancouver, British Columbia",
+    "languages": ["Java, C++"]
   }
 ];
 
