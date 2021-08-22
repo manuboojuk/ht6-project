@@ -608,7 +608,7 @@ input[type=text], select, input[type=email], input[type=tel] {
 }
 
 /************* Style that is textarea **************/
-textarea {
+#comments {
 	width          : 30%;
 	height         : 6.25em;
 	padding        : 12px;
@@ -617,16 +617,15 @@ textarea {
 	resize         : vertical;
 	vertical-align : top;
 }
-
-/************* Style type that is email *************
-input[type=email] {
-	width          : 73%;
+#lastcompany, #startdate, #portfolio, #salary {
+	width          : 30%;
+	height         : 1.2em;
 	padding        : 12px;
 	border         : 1px solid #ccc;
 	border-radius  : 4px;
 	resize         : vertical;
-	vertical-align : middle;
-}*/
+	vertical-align : top;
+}
 
 /************* Style type that are radio and checkbox **************/
 input[type=radio], input[type=checkbox] {
