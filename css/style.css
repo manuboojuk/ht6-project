@@ -18,8 +18,8 @@ body{
     background-color: #534252; /* Blue background */
     border: none; /* Remove borders */
     color: white; /* White text */
-    padding: 20px 33px; /* Some padding */
-    font-size: 16px; /* Set a font size */
+    padding: 1.1em 1.3em; /* Some padding */
+    font-size: 1.2em; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
   }
   
