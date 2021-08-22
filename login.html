@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title> Teen Space - Login </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+        <script src="js/auth.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body {
+                background-image: url(./img/header.jpeg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text-center" style="max-width:400px; margin:auto; margin-top: 340px; ">
+            <h1 class="cd-headline clip is-full-width mt-5">
+                <span class="cd-words-wrapper" style="width: 266px; overflow: hidden;">
+                    <p class="is-visible">Login</p>
+                </span>
+            </h1>
+            <form>
+                <input type="email" placeholder="Email Address" id="email" class="form-control mt-4" required autofocus/>
+                <input type="password" placeholder="password" id="password" class="form-control mt-2" required/>
+                <button type="button" class="btn btn-lg btn-primary mt-4" onClick=signIn() id="logIn"> Log In</button>
+            </form>
+            <div class="home-text mt-4"><h3>Don't have an account? <a href="./signUp.html">Sign Up</a></h3></div>
+        </div>
+
+        <!-- bootstrap js scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    </body>
+</html>
