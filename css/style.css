@@ -12,6 +12,11 @@ body{
     background-color: transparent;
 }
 
+.underConstruction {
+    color: white;
+    text-align: center;
+}
+
 /*------------------------------------------------ HOME BUTTON ---------------------------------------------------------------*/
 /* Style buttons */
 .btn {
