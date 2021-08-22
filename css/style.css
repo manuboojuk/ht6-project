@@ -372,7 +372,7 @@ body {
 }
 
 .jobs__company {
-    color: #8ddbda;
+    color: hsl(244, 27%, 24%);
     font-size: 14px;
     display: block;
     font-weight: 700;
