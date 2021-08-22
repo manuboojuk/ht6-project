@@ -22,7 +22,9 @@ function signUp() {
 	}
 
 	const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
-	promise.catch(e => console.log(e));
+	promise
+		.then(() => window.location.replace("login.html"))
+		.catch(e => console.log(e));
 }
 
 function signIn() {
@@ -31,17 +33,20 @@ function signIn() {
 	var password = document.getElementById("password");
 	
 	const promise = auth.signInWithEmailAndPassword(email.value, password.value);
-	promise.catch(e => {return console.log(e);});
+	promise
+		.then(() => window.location.replace("application.html"))
+		.catch(e => console.log(e));
 }
 
-function logOut() {
+function signOut() {
 	auth.signOut();
+	window.location.replace("login.html");
 }
 
 auth.onAuthStateChanged((user) => {
 	if (user) {
-		// redirect to dashboard
+		// window.location.replace("application.html");
 	} else {
-		// redirect to login
+		// window.location.replace("login.html");
 	}
 });
