@@ -34,7 +34,7 @@ function signIn() {
 	
 	const promise = auth.signInWithEmailAndPassword(email.value, password.value);
 	promise
-		.then(() => window.location.replace("application.html"))
+		.then(() => window.location.replace("job-postings.html"))
 		.catch(e => console.log(e));
 }
 
