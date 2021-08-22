@@ -567,6 +567,109 @@ body {
     }
 }
 
+/*------------------------------------------------ JOB APPLICATION ------------------------------------------------*/
+/**************************** Application Form ************************/
+#application {
+	border           : 2px solid hsla(38, 28%, 92%, 0.6);
+	background-color : hsla(38, 28%, 92%, 0.6);
+	box-shadow       : -11px 11px 22px rgba(172, 168, 168, 0.53);
+	padding-top      : 1.25em;
+	padding-bottom   : 2em;
+	width            : 90%;
+	margin           : 3.5% auto 3% auto;
+    text-align  : center;
+}
+
+#application > p {
+	margin-left  : auto;
+	margin-right : auto;
+	width        : 75%;
+	font-size    : 0.96em;
+}
+
+#form {
+	border           : 2px double #8f8d87;
+	background-color : #d3d8d9;
+	padding          : 2.6em 0.9em 1.1em 0.9em;
+	margin-left      : auto;
+	margin-right     : auto;
+    margin-top       : 1.7em;
+	width            : 91%;
+}
+
+/************* Style types that are text and combo box **************/
+input[type=text], select, input[type=email], input[type=tel] {
+	width          : 30%;
+	padding        : 12px;
+	border         : 1px solid #ccc;
+	border-radius  : 4px;
+	resize         : vertical;
+	vertical-align : middle;
+}
+
+/************* Style that is textarea **************/
+textarea {
+	width          : 30%;
+	height         : 6.25em;
+	padding        : 12px;
+	border         : 1px solid #ccc;
+	border-radius  : 4px;
+	resize         : vertical;
+	vertical-align : top;
+}
+
+/************* Style type that is email *************
+input[type=email] {
+	width          : 73%;
+	padding        : 12px;
+	border         : 1px solid #ccc;
+	border-radius  : 4px;
+	resize         : vertical;
+	vertical-align : middle;
+}*/
+
+/************* Style type that are radio and checkbox **************/
+input[type=radio], input[type=checkbox] {
+	padding : 12px;
+	resize  : vertical;
+}
+
+/************* Style type that is file **************/
+input[type=file] {
+	width         : 30%;
+	padding       : 12px;
+	border-radius : 4px;
+}
+
+.text-deco {
+	font-weight : 900;
+}
+
+/************* Style the label of the form **************/
+label {
+	padding : 12px 12px 12px 0;
+	display : inline-block;
+}
+
+/********************* Style submit and reset buttons ***************************/
+.button {
+	border           : none;
+	border-radius    : 4px;
+	cursor           : pointer;
+	background-color : #eec35b;
+	color            : #6b3a02;
+	padding          : 12px 20px;
+}
+
+.button:hover {
+	background-color : #e9d49a;
+	color            : #c33e1c;
+}
+
+#firstname, #address, #postalcode, #email, #phone {
+	margin-right : 5em;
+}
+
 /*------------------------------------------------ RESPONSIVE ------------------------------------------------*/
 @media screen and (max-width: 768px) {
     .navbar-default.small .navbar-nav {
