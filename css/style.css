@@ -1,4 +1,5 @@
 html{
+    scroll-behavior  : smooth;
     position: relative;
     height: 100%;
 }
@@ -269,6 +270,46 @@ body{
 .home-page h3{
     color: white;
 }
+
+/*------------------------------------------------ NAVIGATION BAR ------------------------------------------------*/
+/*** Style top navigation ***/
+.nav {
+	position : sticky;
+	width    : 100%;
+	top      : 0;
+	z-index  : 1000;
+}
+
+/*** Style the links inside the navigation bar ***/
+.nav ul {
+	display         : flex;
+	justify-content : space-evenly;
+	background      : #9897ae;
+	list-style-type : none;
+	margin          : 0;
+}
+
+.nav li a {
+	display         : block;
+	color           : #f3f1f1;
+	text-align      : center;
+	padding         : 0.88em 1em;
+	font-size       : 1.1em;
+	text-decoration : none;
+}
+
+.nav li a:hover {
+	background-color : #f1e0c6;
+	color            : #59526d;
+	font-weight      : 900;
+}
+
+/*** Add a color to the active/current link ***/
+.nav li a.active {
+	color           : #3c344b;
+	text-decoration : underline double;
+}
+
 /*------------------------------------------------ JOB POSTINGS ------------------------------------------------*/
 :root {
     --highlight-color: #8881a2;
