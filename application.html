@@ -36,7 +36,8 @@
         Please fill out the Job Application below and select the position in the company that interests you.<br>
         Don't forget to also submit the relevant resume in the format of PDF or MS Word.<br>
         If you choose the last checkbox, your application may be sent to relevant recruiters if your qualifications meet their requirements.<br><br>
-        Best of luck to you!
+        Best of luck to you!<br><br>
+        **As of right now, the application is only for Canadian residence. We are so sorry for any inconvenience.**
     </p>
     <div id="form">
         <form>
@@ -66,7 +67,7 @@
             
             <!--	Phone number, tel, required	-->
             <label class="text-deco" for="phone">Phone Number<span style="color: red;">*</span></label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3} required="required""><br><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3} required="required" placeholder="###-###-####"><br><br>
 
             <!--	Address, text, required	-->
             <label class="text-deco" for="address">Address<span style="color: red;">*</span>
@@ -106,16 +107,35 @@
 
             <!--	Country, text, already inputted as Canada, cannot be changed	-->
             <label class="text-deco" for="country">Country</label>
-            <input id="country" name="country" readonly type="text" value="CANADA"><br><br>
+            <input id="country" name="country" readonly type="text" value="CANADA"><br><br><br>
 
             <!--	Position, Combo-box, required	-->
             <label class="text-deco" for="position">Job Position<span style="color: red;">*</span>
             </label>
             <select id="position" name="position" required="required">
                 <option disabled selected value="">Please select a job position</option>
-                <option value="designer">Interior Designer</option>
-                <option value="receptionist">Receptionist</option>
-            </select><br>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="fullstack">Fullstack Developer</option>
+                <option value="engineer">Software Engineer</option>
+            </select><br><br>
+
+            <!--	Company, Combo-box, optional	-->
+            <label class="text-deco" for="company">Company<span style="color: red;">*</span>
+            </label>
+            <select id="company" name="company" >
+                <option disabled selected value="">Please select your desired company</option>
+                <option value="accenture">Accenture</option>
+                <option value="bell">Bell</option>
+                <option value="fdm">FDM Group</option>
+                <option value="hive">Hive</option>
+                <option value="ibm">IBM</option>
+                <option value="kpmg">KPMG</option>
+                <option value="loblaw">Loblaw Digital</option>
+                <option value="national-bank">National Bank of Canada</option>
+                <option value="rbc">Royal Bank of Canada (RBC)</option>
+                <option value="scotiabank">Scotiabank</option>
+            </select><br><br>
 
             <!--	Employment types, radio, optional	-->
             <b>Seeking</b>
@@ -126,16 +146,15 @@
             <input id="internship" name="seeking" type="radio" value="internship">
             <label for="internship">Internship</label><br>
 
-            <!--	Traveling, checkbox, optional	-->
+            <!--	Traveling, radio, optional	-->
             <b>Willing to travel</b>
-            <input id="No" name="No" type="checkbox" value="no">
+            <input id="yes" name="yes" type="radio" value="yes">
+            <label for="yes">Yes</label>
+            <input id="No" name="No" type="radio" value="no">
             <label for="No">No</label>
-            <input id="twentyfive" name="twentyfive" type="checkbox" value="twentyfive">
-            <label for="twentyfive"> &lt;25% of the time ></label>
-            <input id="sixty" name="sixty" type="checkbox" value="sixty">
-            <label for="sixty"> &lt;60% of the time </label>
-            <input id="yes" name="yes" type="checkbox" value="yes">
-            <label for="yes">Yes, anytime</label><br><br>
+            <input id="notsure" name="notsure" type="radio" value="notsure">
+            <label for="notsure">Not sure yet</label><br><br>
+
             <!--	Uploading resume, file, only accepts PDF or MS Word	-->
             <b>Upload Resume<span style="color: #dd885a;">*</span></b>
             <input accept="application/pdf, application/msword,
@@ -147,11 +166,15 @@
             <label class="text-deco" for="comments">Comments</label>
             <textarea id="comments"
                       name="comments"
-                      placeholder="Any questions?"></textarea><br>
+                      placeholder="Any questions?"></textarea><br><br>
 
             <!--	Send postings, checkbox, optional	-->
             <input id="postings" name="postings" type="checkbox" value="postings">
             <label for="postings">Send me job postings</label>
+
+            <!--	Send to recruiters, checkbox, optional	-->
+            <input id="recruiters" name="recruiters" type="checkbox" value="recruiters">
+            <label for="recruiters">Send my application to relevant recruiters, if applicable</label><br>
 
             <!--	Terms and Conditions Agreement, radio, required	-->
             <input id="terms" name="terms" required="required" type="radio" value="terms">
