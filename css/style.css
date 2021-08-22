@@ -598,7 +598,7 @@ body {
 }
 
 /************* Style types that are text and combo box **************/
-input[type=text], select, input[type=email], input[type=tel] {
+input[type=text], select, #email-app, input[type=tel] {
 	width          : 30%;
 	padding        : 12px;
 	border         : 1px solid #ccc;
