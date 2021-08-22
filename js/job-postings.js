@@ -7,7 +7,7 @@ const jobsListings = [
   {
     "id": 1,
     "company": "FDM Group",
-    "logo": "../img/fdm-group-log.png",
+    "logo": "../img/fdm-group-logo.png",
     "new": true,
     "featured": true,
     "position": "Junior Frontend Developer",
