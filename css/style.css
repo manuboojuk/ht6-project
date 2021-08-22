@@ -12,6 +12,21 @@ body{
     background-color: transparent;
 }
 
+/*------------------------------------------------ HOME BUTTON ---------------------------------------------------------------*/
+/* Style buttons */
+.btn {
+    background-color: #534252; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 20px 33px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #c7b5b0;
+  }
 
 /*------------------------------------------------ PRELOAD ---------------------------------------------------------------*/
 .no-js #loader { display: none;  }
