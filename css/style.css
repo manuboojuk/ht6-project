@@ -271,8 +271,8 @@ body{
 }
 /*------------------------------------------------ JOB POSTINGS ------------------------------------------------*/
 :root {
-    --highlight-color: #5DA4A4;
-    --very-dark-color: hsl(180, 14%, 20%);
+    --highlight-color: #8881a2;
+    --very-dark-color: #534252;
 }
 
 html, body {
@@ -280,18 +280,24 @@ html, body {
 }
 
 body {
-    background-color: hsl(244, 27%, 24%);
+    background-color: #3c344b;
     font-family: 'Spartan', sans-serif;
 }
 
-.header {
+.job-header {
     width: 100%;
-    height: 155px;
-    background-image: url('./images/bg-header-desktop.svg');
+    height: 300px;
+    background-image: url('../img/header.jpeg');
     background-size: cover;
     background-position: center;
+    margin-top: -20px;
     background-color: var(--highlight-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
 }
+
 
 .container {
     max-width: 1110px;

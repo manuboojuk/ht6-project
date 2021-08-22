@@ -7,7 +7,7 @@ const jobsListings = [
   {
     "id": 1,
     "company": "FDM Group",
-    "logo": "../img/fdm-group-logo.png",
+    "logo": "img/fdm-group-logo.png",
     "new": true,
     "featured": true,
     "position": "Junior Frontend Developer",
@@ -21,7 +21,7 @@ const jobsListings = [
   {
     "id": 2,
     "company": "Royal Bank of Canada",
-    "logo": "./images/manage.svg",
+    "logo": "img/rbc-logo.svg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -36,7 +36,7 @@ const jobsListings = [
   {
     "id": 3,
     "company": "Scotiabank",
-    "logo": "./images/account.svg",
+    "logo": "img/scotiabank-logo.png",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -51,7 +51,7 @@ const jobsListings = [
   {
     "id": 4,
     "company": "Accenture",
-    "logo": "./images/myhome.svg",
+    "logo": "img/Accenture-logo.png",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -65,7 +65,7 @@ const jobsListings = [
   {
     "id": 5,
     "company": "Hive",
-    "logo": "./images/loop-studios.svg",
+    "logo": "img/hive-logo.png",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -80,7 +80,7 @@ const jobsListings = [
   {
     "id": 6,
     "company": "Loblaw Digital",
-    "logo": "./images/faceit.svg",
+    "logo": "img/loblaw-digital-logo.jpeg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -93,8 +93,8 @@ const jobsListings = [
   },
   {
     "id": 7,
-    "company": "Natrional Bank of Canada",
-    "logo": "./images/shortly.svg",
+    "company": "National Bank of Canada",
+    "logo": "img/national-bank-of-canada-logo.png",
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -108,8 +108,8 @@ const jobsListings = [
   },
   {
     "id": 8,
-    "company": "Bell",
-    "logo": "./images/insure.svg",
+    "company": "Bell Canada",
+    "logo": "img/bell-logo.png",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -124,7 +124,7 @@ const jobsListings = [
   {
     "id": 9,
     "company": "IBM",
-    "logo": "./images/eyecam-co.svg",
+    "logo": "img/ibm-logo.png",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -139,7 +139,7 @@ const jobsListings = [
   {
     "id": 10,
     "company": "KPMG",
-    "logo": "./images/the-air-filter-company.svg",
+    "logo": "img/kpmg-logo.png",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
