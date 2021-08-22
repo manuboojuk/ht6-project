@@ -293,11 +293,24 @@ body {
     margin-top: -20px;
     background-color: var(--highlight-color);
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+}
+.job-header h3 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
 }
 
+.job-header h4 {
+    font-size: 2.4em;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    color: #c7b5b0;
+}
 
 .container {
     max-width: 1110px;
